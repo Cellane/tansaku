@@ -5,11 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
+    "algoliasearch": "^4.0.3",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "express": "^4.17.1",
+    "instantsearch.css": "^7.4.2",
+    "serve-static": "^1.14.1",
+    "vue": "^2.6.11",
+    "vue-instantsearch": "^2.7.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
