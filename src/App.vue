@@ -24,7 +24,11 @@
           </div>
 
           <div class="search-panel__results">
-            <ais-search-box class="searchbox" />
+            <ais-search-box
+              autofocus
+              show-loading-indicator
+              class="searchbox"
+            />
 
             <ais-hits>
               <template slot="item" slot-scope="{ item }">
